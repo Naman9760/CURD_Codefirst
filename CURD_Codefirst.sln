@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32428.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CURD_Codefirst", "CURD_Codefirst\CURD_Codefirst.csproj", "{070FA873-EF63-4DC1-96F1-ED1819713B74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{070FA873-EF63-4DC1-96F1-ED1819713B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070FA873-EF63-4DC1-96F1-ED1819713B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070FA873-EF63-4DC1-96F1-ED1819713B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070FA873-EF63-4DC1-96F1-ED1819713B74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7AA8DA5F-2329-4789-BF00-CF3EE3948420}
+	EndGlobalSection
+EndGlobal

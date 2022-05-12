@@ -1,0 +1,39 @@
+﻿@model IEnumerable<CURD_Codefirst.Models.Viwe_models.productlistviwemodel>
+
+ @{
+    ViewBag.Title = "Index";
+ }
+
+
+@Html.ActionLink("Add Product","create","home")
+
+<h2>List of Product</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Discarption</th>
+        <th>Quntity</th>
+        <th>Price</th>
+        <th>Categrie</th>
+        <th>Action</th>
+
+    </tr>
+    @foreach (var prt in Model)
+    {
+        <tr>
+        <td>@prt.Pid</td>
+        <td>@prt.Pname</td>
+        <td>@prt.Descri</td>
+        <td>@prt.Contity</td>
+        <td>@prt.Price</td>
+        <td>@prt.catagrie</td>
+        <td>
+            <a href="Home/Delete?id=@prt.Pid">Delete</a>
+            <a href="Home/Edit?id=@prt.Pid">Edit</a>
+        </td>
+        </tr>
+    }
+
+</table>
